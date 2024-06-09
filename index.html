@@ -23,6 +23,12 @@
             align-items: center;
             margin-top: 50px;
         }
+        .containerGoogle {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .uploadButton {
 			position: absolute;
 			top: 5%;
@@ -32,14 +38,14 @@
             padding: 10px;
             cursor: pointer;
 			font-size: 2em;
-            max-height: 50%;
+            max-height: 20%;
         }
         .olivenzweig {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: 50px;
-            max-height: 50%;
+            margin-top: 75px;
+            max-height: 40%;
             max-width: 100%;
         }@media (max-width: 768px) {
             .olivenzweig {
@@ -102,15 +108,15 @@
 <body>
     <!-- Container for some things -->
     <div class="container">
-        <button class="uploadButton" id="uploadButton"><u>HIER</u><br>deine Hochzeitsbilder hochladen</button>
+        <button class="uploadButton" id="uploadButton"><u>>HIER<</u><br>Hochzeitsbilder hochladen</button>
     </div>
         
     <div>
         <img class="olivenzweig" src="images/Olivenast.png" alt="Olivenzweig">
     </div>
 
-    <div class="container">
-        <p>Ein Album wird in wenigen Wochen auf <br><a id="google-photos-link" href="#" target="_blank">Google Fotos</a><br> veröffentlicht.
+    <div class="containerGoogle">
+        <h2>Ein Album wird in wenigen Wochen auf <br><a id="google-photos-link" href="#" target="_blank">Google Fotos</a><br> veröffentlicht.</h2>
     </div>
 
     <!-- The tumbnail-carousel on the bottom -->
